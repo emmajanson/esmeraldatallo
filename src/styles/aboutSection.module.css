@@ -1,0 +1,56 @@
+.aboutsection {
+  background-color: #dfdfde;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10vh 0;
+}
+
+.aboutsectionContentWrapper {
+  width: 80%;
+}
+
+.aboutSectionH1 {
+  font-size: 3.5rem;
+  color: #6c695d;
+}
+
+.aboutSectionH2 {
+  font-size: 2.5rem;
+  color: #6c695d;
+}
+
+.aboutSectionH3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-style: italic;
+  padding-bottom: 3rem;
+  color: #6c695d;
+}
+
+.aboutSectionParagraph {
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+@media (max-width: 540px) {
+  .aboutsectionContentWrapper {
+    width: 90%;
+  }
+
+  .aboutSectionH1 {
+    font-size: 2.5rem;
+    padding-top: 2rem;
+  }
+
+  .aboutSectionH2 {
+    font-size: 2rem;
+  }
+
+  .aboutSectionH3 {
+    font-size: 1.2rem;
+  }
+}

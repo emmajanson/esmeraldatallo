@@ -1,0 +1,19 @@
+.footerWrapper {
+    width: 100vw;
+    height: auto;
+    background-color: #6c695d;
+    text-align: center;
+    
+}
+
+.footerParagraph {
+    color: #dfdfde;
+    font-size: 0.7rem;
+    padding: 1vh 0;
+}
+
+.esmeraldatalloLogo {
+    width: 20%;
+    height: auto;
+    padding: 10vh 0;
+}

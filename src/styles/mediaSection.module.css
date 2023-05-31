@@ -1,0 +1,123 @@
+.mediaSection {
+  background-color: #6c695d;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.mediaSectionLeftSide {
+  width: 50%;
+}
+
+.mediaSectionLeftSideImg {
+  width: auto;
+  height: 100vh;
+}
+
+.mediaSectionRightSide {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  color: #fff;
+}
+
+.mediaSectionH1 {
+  font-size: 72px;
+  margin-bottom: 80px;
+}
+
+.mediaImgs {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  align-items: center;
+  justify-items: center;
+}
+
+.mediaImgContainer {
+  width: 85%;
+}
+
+.mediaImg {
+  filter: grayscale(100%);
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .mediaSection {
+    flex-direction: row;
+    height: auto;
+  }
+
+  .mediaSectionLeftSide {
+    width: 50%;
+    height: auto;
+  }
+
+  .mediaSectionLeftSideImg {
+    width: 100%;
+    height: auto;
+  }
+
+  .mediaSectionRightSide {
+    width: 50%;
+    padding: 40px;
+  }
+
+  .mediaSectionH1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+
+  .mediaImgs {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+
+  .mediaImgContainer {
+    width: 100%;
+  }
+
+  .mediaImg {
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .mediaSection {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .mediaSectionLeftSide {
+    width: 100%;
+    order: 2; /* Ändra ordningen för att placera .mediaSectionLeftSide efter .mediaSectionRightSide */
+  }
+
+  .mediaSectionH1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .mediaSectionRightSide {
+    width: 100%;
+    padding: 20px;
+    order: 1; /* Ändra ordningen för att placera .mediaSectionRightSide före .mediaSectionLeftSide */
+  }
+
+  .mediaImgContainer {
+    width: 100%;
+  }
+
+  .mediaImg {
+    width: 100%;
+    height: auto;
+  }
+}
