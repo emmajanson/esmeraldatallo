@@ -22,12 +22,12 @@ function IntroCard({ title }) {
       <h1 className={styles.introCardHeading}>Tällö</h1>
       <p className={styles.introCardParagraph}>
         Självförtroende, självbild och självkänsla spelar idag en stor roll i
-        många ungdomars liv. ärskilt när det kommer till skola och utbildning.
+        många ungdomars liv, särskilt när det kommer till skola och utbildning.
       </p>
       <p className={styles.introCardParagraph}>
         Nu erbjuder jag föreläsningar som är utformade för att inspirera
-        ungdomar. Målet är att de ska upptäcka sin inre styrka, tro på den egna förmågan och ta
-        steget mot en personlig utveckling.
+        ungdomar. Målet är att de ska upptäcka sin inre styrka, skapa tilltro till sin egna förmåga, och komma
+        vidare i sin personliga utveckling.
       </p>
       <div className={styles.btnContainer}>
         <button className={styles.buttoncta} onClick={handleContactClick}>

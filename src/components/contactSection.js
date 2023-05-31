@@ -31,24 +31,24 @@ function ContactSection() {
             className={styles.input}
             type="text"
             name="name"
-            placeholder="Your full name"
+            placeholder="Ditt namn"
             required
           />
           <input
             className={styles.input}
             type="email"
             name="email"
-            placeholder="Your email"
+            placeholder="Din email"
             required
           />
           <textarea
             className={styles.textarea}
             name="message"
-            placeholder="Your message"
+            placeholder="Ditt meddelande"
             required
           ></textarea>
           <button type="submit" className={styles.buttoncta}>
-            KONTAKTA MIG!
+            SKICKA!
           </button>
         </form>
       </div>
