@@ -9,7 +9,7 @@ function aboutSection() {
         <h2 className={styles.aboutSectionH2}>Esmeralda Tällö</h2>
         <h3 className={styles.aboutSectionH3}> Föreläsare & Inspiratör</h3>
         <p className={styles.aboutSectionParagraph}>
-          Mitt namn är Esmeralda, deltagare i dokusopan ESH. Jag brinner för att
+          Mitt namn är Esmeralda, deltagare i dokusåpan ESH. Jag brinner för att
           inspirera ungdomar och deras personliga utveckling. Nu erbjuder jag
           föreläsningar där syftet är att inspirera ungdomar att använda sina
           tidigare upplevelser och utmaningar som drivkraft för att skapa en
