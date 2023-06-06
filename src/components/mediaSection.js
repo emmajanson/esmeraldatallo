@@ -28,7 +28,7 @@ function mediaSection() {
         />
       </div>
       <div className={styles.mediaSectionRightSide}>
-        <div className={styles.mediaSectionH1}>Esmeralda i media</div>
+        <h1 className={styles.mediaSectionH1}>Esmeralda i media</h1>
         <div className={styles.mediaImgs}>
           {imageArray.map((imageUrl, index) => (
             <div key={index} className={styles.mediaImgContainer}>
