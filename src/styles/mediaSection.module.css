@@ -60,6 +60,7 @@
   .mediaSectionLeftSide {
     width: 100%;
     order: 2;
+    background-color: #dfdfde;
   }
   .mediaSectionRightSide {
     width: 80%;
