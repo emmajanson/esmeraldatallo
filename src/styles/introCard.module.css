@@ -6,7 +6,7 @@
   max-width: 30rem;
   height: auto;
   background-color: #6c695d;
-  padding: 3vh 3vh;
+  padding: 1.5rem;
   transition: top 2.5s ease;
   z-index: 4;
 }

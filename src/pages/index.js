@@ -22,7 +22,7 @@ function Home() {
         <Navbar />
         <HeroSection />
         <AboutSection />
-        {/*  <MediaSection /> */}
+         <MediaSection />
         <ContactSection />
         <Footer />
       </main>

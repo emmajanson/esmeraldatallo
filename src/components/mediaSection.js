@@ -35,7 +35,7 @@ function mediaSection() {
               <Image
                 className={styles.mediaImg}
                 alt={`Bild ${index + 1}`}
-                src={imageUrl}
+                src={imageUrl} 
               />
             </div>
           ))}
