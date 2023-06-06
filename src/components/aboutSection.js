@@ -15,16 +15,6 @@ function aboutSection() {
           lärdomar och utmaningar hoppas jag kunna vägleda och motivera ungdomar
           att fatta kloka beslut som leder dem framåt.
         </p>
-{/*         <p className={styles.aboutSectionParagraph}>
-          Genom att dela med mig av mina egna erfarenheter och lärdomar hoppas
-          jag kunna ge verktyg och motivation som behövs för att forma en god
-          framtid. Jag berättar gärna om de utmaningar jag har mött och
-          övervunnit på min egen resa, delar med mig av praktiska verktyg och
-          övriga tips som behövs för att navigera genom livets olika utmaningar.
-          Ungdomar idag behöver vägledning i att fatta medvetna och
-          välinformerade beslut eftersom kraften att påverka sin framtid är
-          stor. Vill ni ha med mig på resan och hjälp med detta? Boka mig nu!
-        </p> */}
       </div>
     </div>
   );
