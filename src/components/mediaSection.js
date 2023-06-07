@@ -3,21 +3,40 @@ import Image from 'next/image';
 
 import styles from '../styles/mediaSection.module.css';
 import esmeraldaRadio from '../assets/esme_radio.jpg';
-import ltImage from '../assets/LT.png';
+import ltImage from '../assets/LT.svg';
 import mittiImage from '../assets/mitti.svg';
 import snImage from '../assets/sn.svg';
-import aftonbladetImage from '../assets/aftonbladet.png';
-import sverigesRadioImage from '../assets/sveriges radio.png';
+import aftonbladetImage from '../assets/aftonbladet.svg';
+import sverigesRadioImage from '../assets/sverigesradio.svg';
 
 const imageArray = [
-  ltImage,
-  snImage,
-  mittiImage,
-  aftonbladetImage,
-  sverigesRadioImage,
+  {
+    url: ltImage,
+    link: 'https://www.lt.se/2023-03-24/esmeralda-fran-igelsta-tar-revansch-i-tv4s-tuffa-program',
+  },
+  {
+    url: snImage,
+    link: 'https://sn.se/bli-prenumerant/artikel/re1py85j/sn-bd-0kr-dp1',
+  },
+  {
+    url: mittiImage,
+    link: 'https://www.mitti.se/nyheter/nytorpsskolans-esmeralda-pushar-sina-militara-granser-6.3.70804.5ab1adcac0',
+  },
+  {
+    url: aftonbladetImage,
+    link: 'https://www.aftonbladet.se/nojesbladet/a/on1JKV/nya-elitstyrkan-moter-utmaningar-i-fjallmiljo',
+  },
+  {
+    url: sverigesRadioImage,
+    link: 'https://sverigesradio.se/artikel/thomas-esmeralda-och-sebastian-pressar-sig-sjalva-i-tv',
+  },
 ];
 
 function mediaSection() {
+  const handleClick = (link) => {
+    window.open(link, '_blank');
+  };
+
   return (
     <div className={styles.mediaSection}>
       <div className={styles.mediaSectionLeftSide}>
@@ -30,12 +49,13 @@ function mediaSection() {
       <div className={styles.mediaSectionRightSide}>
         <h1 className={styles.mediaSectionH1}>Esmeralda i media</h1>
         <div className={styles.mediaImgs}>
-          {imageArray.map((imageUrl, index) => (
+          {imageArray.map((image, index) => (
             <div key={index} className={styles.mediaImgContainer}>
               <Image
                 className={styles.mediaImg}
                 alt={`Bild ${index + 1}`}
-                src={imageUrl} 
+                src={image.url}
+                onClick={() => handleClick(image.link)}
               />
             </div>
           ))}

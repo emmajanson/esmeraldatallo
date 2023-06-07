@@ -33,21 +33,26 @@
 
 .mediaImgs {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 1.5rem;
-  align-items: center;
   justify-items: center;
 }
 
 .mediaImgContainer {
-  width: 85%;
-  padding-bottom: 1.5rem;
+  width: 100%;
+  padding-bottom: 0rem;
 }
 
 .mediaImg {
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   width: 100%;
-  height: auto;
+  height: 80%;
+  cursor: pointer;
+  transition: transform .5s ease;
+}
+
+.mediaImg:hover {
+  transform: scale(1.2);
 }
 
 @media (max-width: 540px) {
