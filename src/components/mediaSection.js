@@ -8,6 +8,7 @@ import mittiImage from '../assets/mitti.svg';
 import snImage from '../assets/sn.svg';
 import aftonbladetImage from '../assets/aftonbladet.svg';
 import sverigesRadioImage from '../assets/sverigesradio.svg';
+import tv4 from '../assets/tv4.svg'
 
 const imageArray = [
   {
@@ -29,6 +30,10 @@ const imageArray = [
   {
     url: sverigesRadioImage,
     link: 'https://sverigesradio.se/artikel/thomas-esmeralda-och-sebastian-pressar-sig-sjalva-i-tv',
+  },
+  {
+    url: tv4,
+    link: 'https://www.tv4.se/klipp/va/20509102/hon-var-inte-som-alla-andra-har-vuxit-efter-min-diagnos',
   },
 ];
 
